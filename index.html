@@ -37,7 +37,17 @@
         margin: 0%;
         padding: 0%;
       }
-
+      
+      body {
+        background:url(images/bg-pattern-desktop.svg),
+        linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        background-size: inherit;
+        background-position-x: 8rem;
+        font-size: 16px;
+        font-family: 'Josefin Sans', sans-serif;
+        height: 100vh;
+        min-height: 100vh;
+      }
     </style>
     <link  rel="stylesheet" href="../base-apparel-coming-soon-master/style.css">
   </head>
@@ -50,13 +60,13 @@
 
     <div class="image-container">
       <img
-        src="../base-apparel-coming-soon-master/images/hero-desktop.jpg"
+        src="images/hero-desktop.jpg"
         class="hero-desktop"
         alt="hero-desktop"
         srcset=""
       />
       <img
-        src="../base-apparel-coming-soon-master/images/hero-mobile.jpg"
+        src="images/hero-mobile.jpg"
         class="hero-mobile"
         alt="hero-mobile"
         srcset=""
@@ -84,13 +94,13 @@
               placeholder="Email Address"
             />
             <img
-              src="./images/icon-error.svg"
+              src="images/icon-error.svg"
               class="icon-error"
               alt="icon-error"
               srcset=""
             />
             <button type="button" id="submit">
-              <img src="./images/icon-arrow.svg" alt="icon-arrow" srcset="" />
+              <img src="images/icon-arrow.svg" alt="icon-arrow" srcset="" />
             </button>
           </div>
           <p class="text-error"></p>
